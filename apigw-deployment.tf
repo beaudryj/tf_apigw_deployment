@@ -12,7 +12,6 @@ resource "aws_api_gateway_stage" "stage" {
     format          = file("${path.module}/log_format.json")
   }
 
-  tags = var.tags
 }
 
 # Deployment
