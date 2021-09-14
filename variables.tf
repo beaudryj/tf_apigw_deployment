@@ -36,11 +36,3 @@ variable "domain_name" {
   type        = string
 }
 
-#############################
-# General Shared
-#############################
-
-variable "tags" {
-  description = "Default Tags"
-  type        = map
-}
